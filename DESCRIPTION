@@ -1,0 +1,22 @@
+Package: toposort
+Title: Topological Sorting Algorithms
+Version: 0.0.0.9000
+Authors@R: 
+    person("Taras", "Zakharko", , "taras.zakharko@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7601-8424"))
+Description: Flexible and ergonomic topological sorting implementation for R. Supports a variety
+  of input data encoding (lists of edges or adjacency matrices, graphs edge direction, item indices 
+  or item labels), stable sort variants as well as cycle detection with detailed diagnostics. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    rlang,
+    vctrs,
+    glue
+Suggests: 
+    testthat (>= 3.0.0),
+    tibble,
+    cli
+Config/testthat/edition: 3
