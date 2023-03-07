@@ -90,7 +90,7 @@ Check the documentation `?topological_sort` for more examples
 
 ## Cyclic dependencies
 
-Topological sorting is only possible if there are no cyclic depenencies. Figuring out such 
+Topological sorting is only possible if there are no cyclic dependencies. Figuring out such 
 dependencies can be time-consuming, especially on larger inputs, which is why toposort will detect 
 and report them for you.
 

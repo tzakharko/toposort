@@ -5,11 +5,11 @@
 #'   integer or logical flags (where `x[i,j] == 1` indicates that `i` depends
 #'   on `j`). The graph can optionally have names (will be taken from row names
 #'   for the matrix).
-#' @param dependency_type named string argument specifying how to interpret depencenies
-#'   in the graph. This must be either "precedes" (parent nodes in the graph come
+#' @param dependency_type named string argument specifying how to interpret the
+#'   graph. This must be either "precedes" (parent nodes in the graph come
 #'   before their children) or "follows" (parent nodes in the graph follow
-#'   their children). This can also be specified as an attibute of the same
-#'   name on teh graph input `x`
+#'   their children). This can also be specified as an attribute of the same
+#'   name on the graph input `x`
 #' @param labels optional named character vector of item labels. If provided, the
 #'   sorted output will use these labels. The default labels are taken from the
 #'   names of `x` (row names if it is a matrix), if any are provided. Set to
@@ -25,8 +25,8 @@
 #' flexibility (see examples).
 #'
 #' `stable_topological_sort()` guarantees stable sort order (items without mutual
-#' dependencies will be sorted in the order of occurence). `topological_sort()` makes
-#' no such guarantees and might be more performant in future versions of the package.
+#' dependencies will be sorted in the order of occurrence). `topological_sort()` makes
+#' no such guarantees and might offer improved performance in future versions of the package.
 #'
 #' An informative error is raised if cycles are detected in the dependency
 #' graph. The error condition has the class `toposort/cyclic_depenencies_error` and

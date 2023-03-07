@@ -18,11 +18,11 @@ for the matrix).}
 
 \item{...}{These dots are for future extensions and must be empty.}
 
-\item{dependency_type}{named string argument specifying how to interpret depencenies
-in the graph. This must be either "precedes" (parent nodes in the graph come
+\item{dependency_type}{named string argument specifying how to interpret the
+graph. This must be either "precedes" (parent nodes in the graph come
 before their children) or "follows" (parent nodes in the graph follow
-their children). This can also be specified as an attibute of the same
-name on teh graph input \code{x}}
+their children). This can also be specified as an attribute of the same
+name on the graph input \code{x}}
 
 \item{labels}{optional named character vector of item labels. If provided, the
 sorted output will use these labels. The default labels are taken from the
@@ -42,8 +42,8 @@ The dependency structure can be encoded in a number of different ways for
 flexibility (see examples).
 
 \code{stable_topological_sort()} guarantees stable sort order (items without mutual
-dependencies will be sorted in the order of occurence). \code{topological_sort()} makes
-no such guarantees and might be more performant in future versions of the package.
+dependencies will be sorted in the order of occurrence). \code{topological_sort()} makes
+no such guarantees and might offer improved performance in future versions of the package.
 
 An informative error is raised if cycles are detected in the dependency
 graph. The error condition has the class \code{toposort/cyclic_depenencies_error} and
