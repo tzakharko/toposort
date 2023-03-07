@@ -4,7 +4,7 @@
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/tzakharko/toposort/workflows/R-CMD-check/badge.svg)](https://github.com/tzakharko/toposort/actions)
 [![CRAN status](https://www.r-pkg.org/badges/version/toposort)](https://CRAN.R-project.org/package=toposort)
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-stable-green.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
 <!-- badges: end -->
 
 A one stop shop for all your topological sorting needs
