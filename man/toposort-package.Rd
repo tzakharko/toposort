@@ -6,7 +6,7 @@
 \alias{toposort-package}
 \title{toposort: Topological Sorting Algorithms}
 \description{
-Flexible and ergonomic topological sorting implementation for R. Supports a variety of input data encoding (lists of edges or adjacency matrices, graphs edge direction, item indices or item labels), stable sort variants as well as cycle detection with detailed diagnostics.
+Flexible and ergonomic topological sorting implementation for R. Supports a variety of input data encoding (lists of edges or adjacency matrices, graphs edge direction, item indices or item labels), stable sort variants as well as cycle detection with detailed diagnosis.
 }
 \author{
 \strong{Maintainer}: Taras Zakharko \email{taras.zakharko@gmail.com} (\href{https://orcid.org/0000-0001-7601-8424}{ORCID})

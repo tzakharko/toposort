@@ -1,5 +1,7 @@
 test_that("Topological sorting works for randomly generated graphs", {
-  replicate(100, {
+  skip_on_cran()
+
+  replicate(500, {
     # generate a random graph
     graph <- make_random_acyclic_graph(as.integer(runif(1L, 5, 500 + 1)), FALSE)
     graph_encodings <- build_graph_encodings(graph)
